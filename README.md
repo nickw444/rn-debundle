@@ -5,10 +5,15 @@ A _very_ basic debundler for Javascript bundles compiled with React Native's bun
 Debundles a large React Native bundle by walking the compiled AST and extracts individual module declarations and 
 writes them to their own modules & attempts to resolve dependeny import relationships.
 
+### Install
+```sh
+npm install -g rn-debundle
+```
+
 ### Usage
 
 ```sh
-rn-debungle main.jsbundle ./my-output-dir
+rn-debundle main.jsbundle ./my-output-dir
 ```
 
 ### Demo

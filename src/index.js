@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const escodegen = require('escodegen');
 const espree = require("espree");
 const estraverse = require('estraverse');
